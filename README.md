@@ -1,6 +1,6 @@
 # Autobiografia – Projeto FDS
 
-Site desenvolvido como parte do projeto final da disciplina de Fundamentos de Desenvolvimento de Software. Apresenta um pouco do que sou.
+Esse site foi desenvolvido como parte do projeto final da disciplina de Fundamentos de Desenvolvimento de Software. Apresenta um pouco do que sou, apresentando alguns hobbies e alguns países que gostaria de visitar.
 
 ## Arquivos incluídos
 
@@ -11,7 +11,7 @@ Site desenvolvido como parte do projeto final da disciplina de Fundamentos de De
 
 ## Imagens utilizadas
 
-As imagens estão organizadas na pasta `/img` e foram usadas para ilustrar os países da tabela e os hobbies.
+As imagens estão organizadas na pasta `/img` e foram usadas para ilustrar os países da tabela e um dos hobbies mencionado.
 
 ## Visualização online
 
