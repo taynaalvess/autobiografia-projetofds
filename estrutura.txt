@@ -1,0 +1,10 @@
+autobiografia-projetofds/
+├── index.html         → Estrutura principal da página
+├── style.css          → Estilos visuais
+├── script.js          → Interatividade
+├── README.md          → Documentação explicativa
+└── img/               → Imagens usadas no site
+    ├── chile.jpeg
+    ├── desenhogato.png
+    ├── italia.jpg
+    └──  turquia.jpg 
