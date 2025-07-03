@@ -1,0 +1,118 @@
+/* ----- Estilos gerais do corpo da página ----- */
+body {
+    background-color: #E0E6F8; 
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+
+/* ----- Título principal ----- */
+h1 {
+    color: #6702b9; 
+    text-align: center;
+    font-size: 40px;
+}
+
+/* ----- Estilo dos parágrafos ----- */
+p {
+    font-size: 22px;
+    text-align: justify;
+}
+
+/* ----- Classe auxiliar para centralizar elementos ----- */
+.centralizar {
+  text-align: center !important;
+}
+
+/* ----- Imagens gerais ----- */
+img {
+    border-radius: 10px;
+    display: block;
+    margin: 10px auto;
+}
+
+/* ----- Estilo para a tabela de países ----- */
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 20px auto;
+    border: 1px solid #aaa; /* só se quiser borda no contorno da tabela */
+}
+
+/* ----- Estilo para células da tabela de países----- */
+td {
+    border: 1px solid #aaa;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 22px;
+}
+
+
+/* ----- Link da página de interesse ----- */
+a {
+    color: #0469b6;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+a:hover {
+    color: #5d00a9;
+}
+
+/* ----- Botão interativo ----- */
+button {
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  background-color: rgb(1, 63, 122);
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 26px;
+  border-radius: 8px;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: rgb(3, 84, 160);
+  transform: scale(1.05);
+}
+
+button:active {
+  background-color: rgb(1, 63, 122);
+  transform: scale(1.05);
+}
+
+/* ----- Container para limitar largura máxima do conteúdo ----- */
+.conteudo {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* ----- Lista de hobbies ----- */
+ul {
+  list-style-position: inside;
+  padding: 0;
+  display: inline-block;
+  text-align: left;
+  font-size: 22px;
+}
+
+/* ----- Itens da lista de hobbies ----- */
+ul li {
+  margin-bottom: 10px;
+}
+
+/* ----- Estilo para legendas das imagens ----- */
+.legenda {
+  font-size: 16px;
+  color: #555;
+  font-style: italic;
+  text-align: center;
+  margin-top: 5px;
+}
