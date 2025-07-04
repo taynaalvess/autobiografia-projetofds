@@ -36,7 +36,7 @@ table {
     border-collapse: collapse;
     width: 60%;
     margin: 20px auto;
-    border: 1px solid #aaa; /* só se quiser borda no contorno da tabela */
+    border: 1px solid #aaa; 
 }
 
 /* ----- Estilo para células da tabela de países----- */
@@ -89,10 +89,19 @@ button:active {
 
 /* ----- Container para limitar largura máxima do conteúdo ----- */
 .conteudo {
-  max-width: 800px;
+  max-width: 1200px;
   margin: 0 auto;
   text-align: center;
 }
+
+/* ----- Ajustes responsivos para telas menores (até 768px) ----- */
+@media (max-width: 768px) {
+  .conteudo {
+    padding: 0 20px;
+    max-width: 100%;
+  }
+}
+
 
 /* ----- Lista de hobbies ----- */
 ul {
